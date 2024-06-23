@@ -1,0 +1,16 @@
+.nav {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.navLink {
+  font-size: 24px;
+}
+
+.active {
+  text-decoration: underline;
+  font-weight: 700;
+  transform: scale(1.1);
+}

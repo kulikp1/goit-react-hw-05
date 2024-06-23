@@ -1,0 +1,53 @@
+.goBackBtn {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  padding: 5px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #808080;
+  border: 1px solid transparent;
+}
+
+.goBackBtn:hover {
+  border: 1px solid #ffffff;
+}
+
+.movieDetails {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.movieInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: start;
+  align-items: start;
+}
+
+.overview {
+  text-align: start;
+}
+
+.genresList {
+  display: flex;
+  gap: 10px;
+}
+
+.additionalInfo {
+  text-align: start;
+}
+
+.additionalInfoList {
+  padding-left: 18px;
+  list-style: disc;
+  margin-bottom: 15px;
+}
+
+.additionalInfoLink {
+  text-decoration: underline;
+}

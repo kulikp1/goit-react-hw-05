@@ -1,0 +1,19 @@
+.reviewsList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.reviewsListItem {
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 5px;
+  border: 1px solid #808080;
+  overflow: hidden;
+}
+.author {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
