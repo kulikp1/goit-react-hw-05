@@ -15,7 +15,6 @@ export default function MovieCast() {
     async function getCast() {
       try {
         setIsLoading(true);
-        // setIsError(false);
         const data = await getMovieCredits(movieId);
         setCredits(data.cast);
       } catch (error) {
