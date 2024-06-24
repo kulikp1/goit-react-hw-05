@@ -5,13 +5,13 @@ import { Route, Routes } from 'react-router-dom';
 import Navigation from '../Navigation/Navigation';
 import Loader from '../Loader/Loader';
 
-const HomePage = lazy(() => import('../../Pages/HomePage/HomePage'));
-const MoviesPage = lazy(() => import('../../Pages/MoviesPage/MoviesPage'));
+const HomePage = lazy(() => import('../../pages/HomePage/HomePage'));
+const MoviesPage = lazy(() => import('../../pages/MoviesPage/MoviesPage'));
 const NotFoundPage = lazy(() =>
-  import('../../Pages/NotFoundPage/NotFoundPage')
+  import('../../pages/NotFoundPage/NotFoundPage')
 );
 const MovieDetailsPage = lazy(() =>
-  import('../../Pages/MovieDetailsPage/MovieDetailsPage')
+  import('../../pages/MovieDetailsPage/MovieDetailsPage')
 );
 const MovieCast = lazy(() => import('../MovieCast/MovieCast'));
 const MovieReviews = lazy(() => import('../MovieReviews/MovieReviews'));
